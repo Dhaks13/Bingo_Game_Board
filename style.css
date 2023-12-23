@@ -6,6 +6,7 @@ body {
   background-color: black;
   color: white;
   padding: 10px;
+  font-size:x-large;
 }
 
 #game {
@@ -18,15 +19,17 @@ body {
 }
 
 #controls {
+  width: 99%;
+  height: 40%;
   border: 1px black solid;
   padding: 5px;
   align-items: center;
   align-self: center;
-
+  border-radius: 10%;
 }
 
 button {
-  width: 70%;
+  width: 90%;
   height: 100%;
   border-radius: 10%;
   align-self: center;
@@ -36,8 +39,12 @@ button {
   border: 1px black solid;
   color: black;
   padding: 5px;
+  width: 100%;
+  height: 80%;
 }
 
 .stat {
   padding-right: 10px;
+  width: 100%;
+  height: 80%;
 }
