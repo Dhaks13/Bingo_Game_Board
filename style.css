@@ -1,0 +1,43 @@
+body {
+  background-color: skyblue;
+}
+
+#text {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+#game {
+  width: 80%;
+  height: 80%;
+  background-color: lightgray;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#controls {
+  border: 1px black solid;
+  padding: 5px;
+  align-items: center;
+  align-self: center;
+
+}
+
+button {
+  width: 70%;
+  height: 100%;
+  border-radius: 10%;
+  align-self: center;
+}
+
+#stats {
+  border: 1px black solid;
+  color: black;
+  padding: 5px;
+}
+
+.stat {
+  padding-right: 10px;
+}
