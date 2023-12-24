@@ -1,7 +1,7 @@
 //decalring required variables
 let num = 0;
 let history = [];
-
+let element;
 
 //getting html document elements
 const button1 = document.querySelector("#button1");
@@ -21,11 +21,11 @@ function roll() {
     }
     history.push(num);
     text.innerText = "The Number is: " + num + "\n Numbers on Board:\n\n";
-    for (var i = 0; i < history.length; i++){
-        text.innerText += history[i] +"\t,\t";
-        if((i+1)%10==0){
-            text.innerText += "\n";    
-        }
-    }
+    updateColor(num);
 }
 
+function updateColor(int) {
+    int=String("#num"+int);
+    element=document.querySelector(int);
+    element.style.color = "Green";
+}
