@@ -1,2 +1,1 @@
-# Number_Generator_-1-100-_for_game
-This created for a game where i need to pick number from 1-100 randomly ...
+# Bingo Game Board 
